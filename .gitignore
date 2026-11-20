@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Database
+*.db
+
+# Model weights (large files)
+*.pt
+
+# Datasets & uploads
+backend/datasets/
+backend/uploads/
+backend/authorized_faces/
+backend/models/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.csv
